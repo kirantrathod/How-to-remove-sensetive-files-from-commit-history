@@ -15,7 +15,7 @@ Steps to follow:<br>
 5)rename file bfg-any-version.jar to bfg.jar(Optional).<br>
 6)Type command:<br>
 	java -jar bfg.jar --delete-files filename-to-be deleted  .git<br>
-	Note: If you want to modify also the head, use parameter #--no-blob-protection<br>
+	Note: If you want to modify also the head, use parameter --no-blob-protection<br>
 7)Now navigate back to your cloned repo <br>
 8)And type command :<br>
 	git reflog expire --expire=now --all && git gc --prune=now --aggressive<br>
