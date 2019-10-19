@@ -1,7 +1,8 @@
-# How-to-remove-sensetive-files-from-commit-history
-This repo is about removing sensetive files from commit history even if you have delted that from your current commit.
-This sensetive files might contain passwords or api keys etc.
-To secure ourself from exposing our private data to others we can use bfg tool instead of git-filter.   
+# How-to-remove-sensetive-files-from-commit-history<br>
+This repo is about removing sensetive files from commit history even if you have delted that from your current commit.<br>
+This sensetive files might contain passwords or api keys etc.<br>
+To secure ourself from exposing our private data to others we can use bfg tool instead of git-filter.  <br>
+<br>
 Note: For detailed information about how this works and why... please refer this : https://rtyley.github.io/bfg-repo-cleaner/ <br>
 
 
